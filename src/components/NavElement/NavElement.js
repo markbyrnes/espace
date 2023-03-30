@@ -4,7 +4,8 @@ import styles from "./NavElement.css"
 export default function NavElement(props){
 
     let url = props.to.toLowerCase() 
-
+    let navTitle = props.to
+    if (navTitle === "") navTitle = "Home"
     return(
         <NavLink 
         className="link"
@@ -14,7 +15,7 @@ export default function NavElement(props){
           background: isActive ? '#F5F5DC' : '#F5F5DC', //#FFDEAD
           
         })}
-        >{props.to}</NavLink>
+        >{navTitle}</NavLink>
 
     )
 }

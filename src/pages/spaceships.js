@@ -1,12 +1,6 @@
-import React from 'react';
-const Spaceships = () =>{
+
+export default function Spaceships() {
   return (
-    <div>
-      <h3>Spaceships</h3>
-      <div>
-        
-      </div>
-    </div>
-  );
+    <h1>Spaceships</h1>
+  )
 }
-export default Spaceships;

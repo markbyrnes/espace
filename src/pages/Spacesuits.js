@@ -1,5 +1,4 @@
-import React from 'react';
-const Suits = () =>{
+export default function Spacesuits(){
   return (
     <div>
       <h3>Suits</h3>
@@ -7,6 +6,5 @@ const Suits = () =>{
         
       </div>
     </div>
-  );
+  )
 }
-export default Suits;

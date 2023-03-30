@@ -1,4 +1,3 @@
-import {  NavLink } from "react-router-dom"
 import NavElement from "../NavElement/NavElement"
 import styles from "./Navbar.css"
 
@@ -7,7 +6,7 @@ export default function Navbar() {
   <nav>
     <ul className="navbar--list">
       <li className="home">
-        <NavElement to="Home" />
+        <NavElement to="" />
       </li>
       <li>
         <NavElement to="Spaceships" />

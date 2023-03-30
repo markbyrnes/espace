@@ -1,4 +1,5 @@
-export default function Warpdrives(){
+import React from 'react';
+const Warpdrives = () =>{
   return (
     <div>
       <h3>Warpdrives</h3>
@@ -6,5 +7,6 @@ export default function Warpdrives(){
         
       </div>
     </div>
-  )
+  );
 }
+export default Warpdrives;
