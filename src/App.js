@@ -6,6 +6,7 @@ import Spaceships from './pages/Spaceships'
 import Spacesuits from './pages/Spacesuits'
 import Warpdrives from './pages/Warpdrives'
 import Home from './pages/Home'
+import styles from "./App.css"
 
 export default function App() {
   return (

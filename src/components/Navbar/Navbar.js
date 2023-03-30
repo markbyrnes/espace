@@ -4,7 +4,7 @@ import styles from "./Navbar.css"
 export default function Navbar() {
   return (
   <nav>
-    <ul className="navbar--list">
+    <ul className="navbar__list">
       <li className="home">
         <NavElement to="" />
       </li>
