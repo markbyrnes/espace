@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Electronics from './pages/electronics';
+import Spaceships from './pages/spaceships';
+import Suits from './pages/suits';
+import Warpdrives from './pages/warpdrives';
+import Home from './pages';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact component={Home} />
+        <Route path='/electronics' component={Electronics} />
+        <Route path='/spaceships' component={Spaceships} />
+        <Route path='/suits' component={Suits } />
+        <Route path='/warpdrives' component={Warpdrives} />
+      </Routes>
+    </Router>
   );
 }
 
