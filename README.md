@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# eSpace: A E-Commerce Project using React.js and Spring Boot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
+Welcome to eSpace, the online marketplace for all your spacefaring needs! Whether its a brand new spaceship or a used one, whether its a warpdrive or a mining drone, eSpace has all your needs! Offering pickup and delivery.
+
+
+## Why Did I Create This Project?
+After creating SendIt—a social media website created using Flask, HTML, CSS, and Javascript with a MySQL backend—I felt I had learned a good amount of web development. But after finishing it, I felt I had a few problems.
+
+### Problem #1: I was using just basic HTML and CSS
+In SendIt I relied a lot on just basic HTML and CSS knowledge, letting Bootstrap do a lot of the heavy lifting. This was because I felt overwhelmed just trying to grasp Flask and how backend development worked. But once I was done with the project, I realized that my front end skills needed more practice.
+
+### Problem #2: I was relying too much on Python
+After dealing with C++ for much of High School and then Java for the first couple years of college, I began to use Python much more in my junior and senior years. This has led to a lot of rustiness in my Java and C++ knowledge. So I figured why not shake off my Java rust and learn a new backend at the same time with this project's use of Spring Boot.
+
+### Problem 3: I wasn't worrying about best practices
+This is the final problem I realized. Firstly, I was not using git to its full potential, instead I was doing most of my version control locally. Secondly, I was not using automated testing in SendIt, ignoring unit tests and integration testing. This problem arised because I was unaware of the importance of git and testing until I was basically done with SendIt.  So realizing this, I wanted to create a new project with both of these in mind from the beginning.
+
+### But Why a Space Themed E-Commerce Site?
+
+I started out wanting to create an e-commerce site because I thought it would have an interesting frontend and backend, with the site having to handle items constantly being added and sold, having to sort items, add items to your cart, etc. 
+
+The theme of a futuristic ebay was just because I found it cool, and interesting to know that one day in the future there probably will be some internet marketplace for people to buy spaceships, a website that the people of the future will find boring but we will find amazing.
 
 ## Available Scripts
 
