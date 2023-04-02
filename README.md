@@ -8,7 +8,7 @@ Welcome to eSpace, the online marketplace for all your spacefaring needs! Whethe
 After creating SendIt—a social media website created using Flask, HTML, CSS, and Javascript with a MySQL backend—I felt I had learned a good amount of web development. But after finishing it, I felt I had a few problems.
 
 ### Problem #1: I was using just basic HTML and CSS
-In SendIt I relied a lot on just basic HTML and CSS knowledge, letting Bootstrap do a lot of the heavy lifting. This was because I felt overwhelmed just trying to grasp Flask and how backend development worked. But once I was done with the project, I realized that my front end skills needed more practice.
+In SendIt I relied a lot on just basic HTML and CSS knowledge, letting Bootstrap do a lot of the heavy lifting. This was because I felt overwhelmed just trying to grasp Flask and how backend development worked. But once I was done with the project, I realized that my front end skills needed more practice. So I decided to embrace the popular 
 
 ### Problem #2: I was relying too much on Python
 After dealing with C++ for much of High School and then Java for the first couple years of college, I began to use Python much more in my junior and senior years. This has led to a lot of rustiness in my Java and C++ knowledge. So I figured why not shake off my Java rust and learn a new backend at the same time with this project's use of Spring Boot.
