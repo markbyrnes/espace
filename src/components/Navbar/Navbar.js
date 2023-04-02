@@ -20,6 +20,9 @@ export default function Navbar() {
       <li>
         <NavElement to="Spacesuits" />
       </li>
+      <li>
+        <NavElement to="Register" />
+      </li>
     </ul>
   </nav>
   )
