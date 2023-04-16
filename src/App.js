@@ -8,6 +8,7 @@ import Spacesuits from "./pages/Spacesuits"
 import Warpdrives from "./pages/Warpdrives"
 import Home from "./pages/Home"
 import Register from "./pages/Register"
+import Login from "./pages/Login"
 import styles from "./App.css"
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path='/spacesuits' element={<Spacesuits />} />
         <Route path='/warpdrives' element={<Warpdrives />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </Router>
   )

@@ -23,6 +23,9 @@ export default function Navbar() {
       <li>
         <NavElement to="Register" />
       </li>
+      <li>
+        <NavElement to="Login" />
+      </li>
     </ul>
   </nav>
   )
